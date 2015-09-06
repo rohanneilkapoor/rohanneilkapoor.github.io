@@ -172,6 +172,9 @@
 
 })(jQuery);
 
+
+
+
 var baseopacity=0
 
 function showtext(thetext){
