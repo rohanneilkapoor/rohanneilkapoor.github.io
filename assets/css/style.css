@@ -16,7 +16,6 @@ body {
 
 img {
 	max-width: 100%;
-	height: auto;
 }
 
 
@@ -268,7 +267,7 @@ textarea.form-control {
 }
 
 .pfblock-subtitle {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-family: Raleway, sans-serif;
 	font-style: normal;
 	font-size: 18px;
 }
@@ -347,17 +346,7 @@ textarea.form-control {
 	padding: 0;
 }
 
-.home-overlay {
-    background-color: rgba(44, 62, 80, 0.3);
-    background-image: url("../images/pattern.png");
-    background-repeat: repeat;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 0;
-}
+
 
 .intro {
 	position: absolute;
@@ -378,7 +367,7 @@ textarea.form-control {
 }
 
 .start {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-family: Raleway, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	text-transform: none;
@@ -569,6 +558,13 @@ textarea.form-control {
 .navbar-custom .navbar-toggle .icon-bar {
 	background: #F3EFE0;
 }
+
+.navbar-nav > li > a, .navbar-brand {
+	padding-top:25px !important;
+	padding-bottom:0px !important;
+	height: 70px;
+}
+.navbar {min-height:60px !important;}
 
 /* ---------------------------------------------- /*
  * Scroll to top
@@ -962,23 +958,22 @@ figure.effect-bubba:hover p {
 
 }
 
-img:hover{
+.img:hover{
 	opacity: 0.6;
 }
 
-.carousel-indicators {
-
-}
-
-.carousel-inner {
-
-}
 
 .carousel-indicators li {
-	background-color: #555555;
+	background-color: transparent;
+	padding-top: 25px !important;
+	padding-left: 15px !important;
+
 }
 .carousel-indicators .active {
 	background-color: #9A3334;
+	padding-top: 25px !important;
+	padding-left: 15px !important;
+
 }
 
 .computer-background{
@@ -992,3 +987,16 @@ img:hover{
 	-o-background-size: cover;
 	background-attachment: fixed;
 }
+
+.meeting-background{
+	background: linear-gradient( rgba(0, 0, 0, .6), rgba(0, 0, 0, .6) ), url(../images/meeting.jpg);
+	width: 100%;
+	background-position: center center;
+	background-repeat: none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+
+}
+
