@@ -188,7 +188,7 @@ textarea.form-control {
 .btn-group-lg > .btn {
 	padding: 10px 25px;
 	font-size: 13px;
-    background: rgba(17, 17, 17, 0.8);
+    background: #9A3334;
     color: #fff;
 }
 .btn-lg:hover,
@@ -274,10 +274,10 @@ textarea.form-control {
 }
 
 .pfblock-line {
-	background: rgba(135, 135, 135, 0.5);
-	width: 100px;
-	height: 1px;
-	margin: 30px auto;
+	background: #F3EFE0;
+	width: 2px;
+	height: 300px;
+
 }
 
 .pfblock-icon {
@@ -522,8 +522,9 @@ textarea.form-control {
 
 .navbar-custom,
 .navbar-custom .dropdown-menu {
-	background: #fff;
+	background: white;
 	padding: 0;
+
 }
 
 .navbar-custom .navbar-brand,
@@ -961,9 +962,33 @@ figure.effect-bubba:hover p {
 
 }
 
+img:hover{
+	opacity: 0.6;
+}
+
+.carousel-indicators {
+
+}
+
+.carousel-inner {
+
+}
+
 .carousel-indicators li {
 	background-color: #555555;
 }
 .carousel-indicators .active {
 	background-color: #9A3334;
+}
+
+.computer-background{
+	background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url(../images/computer.jpg);
+	width: 100%;
+	background-position: center center;
+	background-repeat: none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-attachment: fixed;
 }
