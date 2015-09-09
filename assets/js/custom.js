@@ -212,3 +212,4 @@ function gradualfade(cur2){
 	else if (window.highlighting)
 		clearInterval(highlighting)
 }
+
