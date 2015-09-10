@@ -468,21 +468,21 @@ textarea.form-control {
 }
 
 .social-links a {
-	width: 36px;
-	height: 36px;
+	width: 60px;
+	height: 60px;
 	display: block;
-	line-height: 35px;
+	line-height: 59px;
 	text-align: center;
-	border: 1px solid rgba(255, 255, 255, .1);
+	border: 1px solid rgba(255, 255, 255, .6);
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;
 			border-radius: 3px;
-	font-size: 14px;
-	color: rgba(255, 255, 255, .2);
+	font-size: 25px;
+	color: rgba(255, 255, 255, 1);
 }
 
 .social-links a:hover {
-	border: 1px solid rgba(255, 255, 255, .5);
+	border: 1px solid rgba(255, 255, 255, 1);
 	color: rgba(255, 255, 255, .8);
 }
 
@@ -517,7 +517,7 @@ textarea.form-control {
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
 	font-size: 11px;
 	letter-spacing: 3px;
-	color: #F3EFE0;
+	color: #d8d8d8;
 }
 
 .navbar-custom .nav li.active,
@@ -997,7 +997,7 @@ figure.effect-bubba:hover p {
 }
 
 .contact-background{
-	background: linear-gradient( rgba(0, 0, 0, .1), rgba(0, 0, 0, .3) ), url(../images/city2.jpg);
+	background: linear-gradient( rgba(0, 0, 0, .2), rgba(0, 0, 0, .5) ), url(../images/city2.jpg);
 	width: 100%;
 	background-position: center center;
 	background-repeat: none;

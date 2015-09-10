@@ -1,4 +1,4 @@
-<?php
+/*<?php
 
 if(isset($_POST['message'])){
 
@@ -7,7 +7,7 @@ if(isset($_POST['message'])){
 	$message = $_POST['message'];
     
 	
-	$to      = 'rohanneilkapoor@gmail.com.com';
+	$to      = 'rohanneilkapoor@gmail.com';
 	$subject = 'Site Contact Form';
 
 	$headers = 'From: '. $email . "\r\n" .
@@ -30,4 +30,4 @@ if(isset($_POST['message'])){
 	echo json_encode($res);
 }
 
-?>
+?>*/
