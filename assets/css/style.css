@@ -1005,6 +1005,7 @@ figure.effect-bubba:hover p {
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+
 }
 
 
@@ -1042,5 +1043,14 @@ figure.effect-bubba:hover p {
 .level-bar-inner {
 	height: 25px;
 	background: #9A3334;
+}
+
+.project-item{
+	font: 700 40px/1.2 Raleway, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin: 0 0 30px;
+	font-size: 16px;
+	color: #7d7d7d;
 }
 
