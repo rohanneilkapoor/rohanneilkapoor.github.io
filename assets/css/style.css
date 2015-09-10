@@ -186,15 +186,15 @@ textarea.form-control {
 
 .btn-lg,
 .btn-group-lg > .btn {
-	padding: 10px 25px;
+	padding: 10px 10px;
 	font-size: 13px;
-    background: #9A3334;
+    background: transparent;
     color: #fff;
 }
 .btn-lg:hover,
 .btn-group-lg > .btn:hover{
-    background: rgba(17, 17, 17, 1.8);
-    color: #fff;
+    background: transparent;
+    color: white;
 }
 
 .btn-sm,
@@ -273,12 +273,7 @@ textarea.form-control {
 	font-size: 18px;
 }
 
-.pfblock-line {
-	background: #F3EFE0;
-	width: 2px;
-	height: 300px;
 
-}
 
 .pfblock-icon {
 	font-size: 32px;
@@ -990,7 +985,7 @@ figure.effect-bubba:hover p {
 }
 
 .meeting-background{
-	background: linear-gradient( rgba(0, 0, 0, .6), rgba(0, 0, 0, .6) ), url(../images/meeting.jpg);
+	background: linear-gradient( rgba(0, 0, 0, .1), rgba(0, 0, 0, .1) ), url(../images/code.jpg);
 	width: 100%;
 	background-position: center center;
 	background-repeat: none;
@@ -1001,6 +996,18 @@ figure.effect-bubba:hover p {
 
 }
 
+.contact-background{
+	background: linear-gradient( rgba(0, 0, 0, .1), rgba(0, 0, 0, .3) ), url(../images/city2.jpg);
+	width: 100%;
+	background-position: center center;
+	background-repeat: none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+
 .flex-center-vertically {
 	display: flex;
 	justify-content: center;
@@ -1010,5 +1017,30 @@ figure.effect-bubba:hover p {
 
 #caplist a:hover{
 	color: #9A3334 !important;
+}
+
+.card{
+	width: 550px;
+	border: 3px solid white;
+	box-shadow: 3px 3px 3px 3px #b7b7b7;
+	min-height: 250px;
+	padding: 60px;
+	margin: 10px;
+	background: white
+}
+#mainbox{
+	box-sizing: border-box;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.level-bar {
+	height: 25px;
+	background: #e8e8e8;
+}
+.level-bar-inner {
+	height: 25px;
+	background: #9A3334;
 }
 
