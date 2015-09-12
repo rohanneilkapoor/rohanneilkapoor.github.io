@@ -330,7 +330,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(../images/cover.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url(../images/cover.jpg);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -1007,6 +1007,7 @@ figure.effect-bubba:hover p {
 	-o-background-size: cover;
 
 }
+
 
 
 .flex-center-vertically {
