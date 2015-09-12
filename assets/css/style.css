@@ -1022,13 +1022,9 @@ figure.effect-bubba:hover p {
 #mainbox{
 	box-sizing: border-box;
 	justify-content: center;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
 	display: flex;
 	flex-wrap: wrap;
-	
+
 }
 
 .level-bar {
