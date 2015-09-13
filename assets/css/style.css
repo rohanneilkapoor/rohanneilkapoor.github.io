@@ -1011,11 +1011,11 @@ figure.effect-bubba:hover p {
 }
 
 .card{
-	width: 450px;
+	width: 100%;
 	border: 3px solid white;
 	box-shadow: 3px 3px 3px 3px #b7b7b7;
 	min-height: 250px;
-	padding: 50px;
+	padding: 60px;
 	margin: 10px;
 	background: white
 }
