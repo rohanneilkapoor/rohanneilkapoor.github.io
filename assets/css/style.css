@@ -1024,6 +1024,8 @@ figure.effect-bubba:hover p {
 	justify-content: center;
 	display: flex;
 	flex-wrap: wrap;
+	padding-left: 100px;
+	padding-right: 100px;
 
 }
 
