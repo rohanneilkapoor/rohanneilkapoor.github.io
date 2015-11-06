@@ -62,7 +62,6 @@ a,
 
 h1, h2, h3, h4, h5, h6 {
 	font: 700 40px/1.2 Raleway, sans-serif;
-	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin: 5px 0 5px;
 	color: #222;
@@ -330,7 +329,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: linear-gradient( rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) ), url(../images/cover.jpg);
+	background: linear-gradient( rgba(255, 255, 255, .2), rgba(255, 255, 255, .2) ), url(../images/water.jpg);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -468,21 +467,19 @@ textarea.form-control {
 }
 
 .social-links a {
-	width: 60px;
-	height: 60px;
+	width: 5vw;
+	height: 5vw;
 	display: block;
-	line-height: 59px;
+	line-height: 5vw;
 	text-align: center;
-	border: 1px solid rgba(255, 255, 255, .6);
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;
 			border-radius: 3px;
-	font-size: 25px;
+	font-size: 2vw;
 	color: rgba(255, 255, 255, 1);
 }
 
 .social-links a:hover {
-	border: 1px solid rgba(255, 255, 255, 1);
 	color: rgba(255, 255, 255, .8);
 }
 
@@ -1045,5 +1042,20 @@ figure.effect-bubba:hover p {
 	margin: 0 0 30px;
 	font-size: 16px;
 	color: #7d7d7d;
+}
+
+video#bgvid {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background: url(polina.jpg) no-repeat;
+	background-size: cover;
 }
 

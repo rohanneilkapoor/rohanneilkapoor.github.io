@@ -19,7 +19,7 @@ http://www.gnu.org/licenses/gpl.html
 		windowHeight = $window.height();
 	});
 
-	$.fn.parallax = function(xpos, speedFactor, outerHeight) {
+	$.fn.parallax = function(xpos, speedFactor, outerHeight) {0
 		var $this = $(this);
 		var getHeight;
 		var firstTop;
