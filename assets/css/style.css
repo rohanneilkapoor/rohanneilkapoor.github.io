@@ -1055,7 +1055,21 @@ video#bgvid {
 	z-index: -100;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
-	background: url(polina.jpg) no-repeat;
+	background: url(../images/water.png) no-repeat;
 	background-size: cover;
+}
+@media(max-width: 600px)
+{
+	.back {
+		background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/computer.jpg) !important;
+		width: 100% !important;
+		background-position: center center !important;
+		background-repeat: none !important;
+		-webkit-background-size: cover !important;
+		-moz-background-size: cover !important;
+		background-size: cover !important;
+		-o-background-size: cover !important;
+		background-attachment: fixed !important;
+	}
 }
 
