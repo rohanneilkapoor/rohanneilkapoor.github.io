@@ -233,12 +233,10 @@ jQuery(document).ready(function($) {
 		});
 
 	});
-	if(site.isMobile()){
-		$('video').remove()
-	}
 
 });
 
 if(site.isMobile()){
-	$('video').remove()
+	$('video *').hide();
+	$('video img').show();
 }
