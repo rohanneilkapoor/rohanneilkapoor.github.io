@@ -1061,7 +1061,7 @@ video#bgvid {
 
 @media screen and (max-device-width: 800px) {
 	html {
-		background: url(../images/fallback.png) !important;
+		background: url(../images/fallback.png) no-repeat !important;
 		width: 100% !important;
 		background-position: center center !important;
 		background-repeat: none !important;
