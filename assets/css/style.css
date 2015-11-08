@@ -1058,18 +1058,16 @@ video#bgvid {
 	background: url(../images/water.png) no-repeat;
 	background-size: cover;
 }
-@media(max-width: 600px)
-{
-	.back {
-		background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/computer.jpg) !important;
-		width: 100% !important;
-		background-position: center center !important;
-		background-repeat: none !important;
-		-webkit-background-size: cover !important;
-		-moz-background-size: cover !important;
-		background-size: cover !important;
-		-o-background-size: cover !important;
-		background-attachment: fixed !important;
+
+@media screen and (max-device-width: 800px) {
+	html {
+		background: url(../images/fallback.png) #000 no-repeat center center fixed;
+		opacity: 0.9;
+	}
+	#bgvid {
+		display: none;
 	}
 }
+
+
 
