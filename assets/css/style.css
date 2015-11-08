@@ -1061,16 +1061,7 @@ video#bgvid {
 
 @media screen and (max-device-width: 800px) {
 	html {
-		background: url(../images/fallback.png) #000 !important;
-		opacity: 0.9;
-		width: 100%;
-		background-position: center center;
-		background-repeat: none;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		background-size: cover;
-		-o-background-size: cover;
-		background-attachment: fixed;
+		background: url(../images/fallback.png) #000 no-repeat center center fixed !important;
 	}
 	#bgvid {
 		display: none !important;
