@@ -1061,11 +1061,11 @@ video#bgvid {
 
 @media screen and (max-device-width: 800px) {
 	html {
-		background: url(../images/fallback.png) #000 no-repeat center center fixed;
+		background: url(../images/fallback.png) #000 no-repeat center center fixed !important;
 		opacity: 0.9;
 	}
 	#bgvid {
-		display: none;
+		display: none !important;
 	}
 }
 
