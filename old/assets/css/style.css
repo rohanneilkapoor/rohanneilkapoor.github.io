@@ -1044,29 +1044,7 @@ figure.effect-bubba:hover p {
 	color: #7d7d7d;
 }
 
-video#bgvid {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
-	z-index: -100;
-	-webkit-transform: translateX(-50%) translateY(-50%);
-	transform: translateX(-50%) translateY(-50%);
-	background: url(../images/water.png) no-repeat;
-	background-size: cover;
-}
 
-@media screen and (max-device-width: 800px) {
-	html {
-		background: url(../images/fallback.png) #000 no-repeat center center fixed !important;
-	}
-	#bgvid {
-		display: none !important;
-	}
-}
 
 
 
