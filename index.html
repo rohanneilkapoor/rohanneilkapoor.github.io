@@ -1,65 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="full">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
+    <meta charset="UTF-8">
+    <title>Rohan Kapoor</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-	<title>Rohan Kapoor</title>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-	<!-- CSS -->
-	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
-	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
-	<link href="assets/css/animate.css" rel="stylesheet">
-    
-	<!-- Custom styles CSS -->
-	<link href="assets/css/style.css" rel="stylesheet" media="screen">
-    
-    <script src="assets/js/modernizr.custom.js"></script>
-       
+    <link href="font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="animate.css" rel="stylesheet" media="screen">
+    <!-- Latest compiled and minified JavaScript -->
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="wow.min.js"></script>
+
 </head>
 <body>
+    <script>
+        wow = new WOW({
+            mobile: false
+        });
+        wow.init();
+    </script>
+    <style>
+        @import url(http://fonts.googleapis.com/css?family=Raleway:700);
+        body {
+            font: 700 70px 'Raleway', sans-serif;
+            color: #666;
+            overflow-x: hidden;
+        }
+        .full {
+            background: url('background-image.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+        }
+        .intro {
+            position: absolute;
+            width: 100%;
+            top: 40%;
+            left: 0;
+            text-align: center;
+            -webkit-transform: translate(0%, -50%);
+            -moz-transform: translate(0%, -50%);
+            -ms-transform: translate(0%, -50%);
+            -o-transform: translate(0%, -50%);
+            transform: translate(0%, -50%);
+            padding: 0 10px;
+        }
+        .social-links {
+            list-style: none;
+            padding: 0;
+        }
 
-	<!-- Preloader -->
+        .social-links li {
+            display: inline-block;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
 
+        .social-links a {
+            width: 35px;
+            height: 35px;
+            display: block;
+            line-height: 35px;
+            text-align: center;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            font-size: 2vw;
+            color: #e5e5e5;
+        }
 
+        .fa-github:hover {
+            color: #333 ;
+        }
+        .fa-facebook:hover{
+            color: #3b5998;
+        }
+        .fa-linkedin:hover{
+            color: #0077B5;
+        }
+        .fa-envelope:hover{
+            color:#7f7f7f;
+        }
+    </style>
 
-	<!-- Home start -->
-
-	<video autoplay loop poster="polina.jpg" id="bgvid" style="opacity: .9;">
-		<source src="water.mp4" type="video/mp4">
-	</video>
-
-
-	<section id="home" class="back">
-
-		<div class="intro" style="padding-left: 50%;">
-			<h1 class="pfblock-title" style="color: #282828; font-weight: 200; font-size: 5.0vw !important;">Rohan Kapoor</h1>
-			<ul class="social-links">
-				<li><a href="https://www.facebook.com/rohan.kapoor.129" class="wow fadeInUp"><i class="fa fa-facebook" style="color: #282828 !important;"></i></a></li>
-				<li><a href="https://github.com/rohanneilkapoor" class="wow fadeInUp" data-wow-delay=".15s"><i class="fa fa-github" style="color: #282828 !important;"></i></a></li>
-				<li><a href="https://www.linkedin.com/in/rohanneilkapoor" class="wow fadeInUp" data-wow-delay=".3s"><i class="fa fa-linkedin" style="color: #282828 !important;"></i></a></li>
-				<li><a href="mailto:rohanneilkapoor@gmail.com" class="wow fadeInUp" data-wow-delay=".45s"><i class="fa fa-envelope" style="color: #282828 !important;"></i></a></li>
-				<li><a href="Rohan_Kapoor's_Resume.pdf" class="wow fadeInUp" data-wow-delay=".6s"><i class="fa fa-file-text" style="color: #282828 !important;"></i></a></li>
-			</ul>
-		</div>
-
-	</section>
-
-
-	<script src="assets/js/jquery-1.11.1.min.js"></script>
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
-	<script src="assets/js/imagesloaded.pkgd.js"></script>
-	<script src="assets/js/jquery.sticky.js"></script>
-	<script src="assets/js/smoothscroll.js"></script>
-	<script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/jquery.easypiechart.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.cbpQTRotator.js"></script>
-	<script src="assets/js/custom.js"></script>
+    <div class="container">
+        <div class="intro">
+            <img class="animated fadeIn" src="headshot.png" width="200">
+            <div class="animated fadeIn" style="color:#e5e5e5; padding-top: 40px;">Rohan Kapoor</div>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/rohan.kapoor.129" class="animated wow fadeInUp" style="font-size: 40px;"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://github.com/rohanneilkapoor" class="animated wow fadeInUp" data-wow-delay=".15s" style="font-size: 40px;"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/rohanneilkapoor" class="animated wow fadeInUp" data-wow-delay=".3s" style="font-size: 40px;"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="mailto:rohanneilkapoor@gmail.com" class="animated wow fadeInUp" data-wow-delay=".45s" style="font-size: 40px;"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+        </div>
+    </div>
 
 </body>
 </html>
