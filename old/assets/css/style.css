@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800,100,200,600);
-@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700);
 
 /*!
  * Clean v2.0.0
@@ -9,7 +8,7 @@
 */
 
 body {
-	font: 300 14px/1.8 'Raleway', sans-serif;
+	font: 700 70px 'Raleway', sans-serif;
 	color: #666;
 	overflow-x: hidden;
 }
@@ -22,7 +21,13 @@ img {
 /* ---------------------------------------------- /*
  * Transition elsements
 /* ---------------------------------------------- */
-
+.full {
+	background: url(../images/background-image.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
 
 .navbar a,
 .form-control {
@@ -346,15 +351,15 @@ textarea.form-control {
 .intro {
 	position: absolute;
 	width: 100%;
-	top: 50%;
+	top: 40%;
 	left: 0;
 	text-align: center;
 	-webkit-transform: translate(0%, -50%);
-	   -moz-transform: translate(0%, -50%);
-		-ms-transform: translate(0%, -50%);
-		 -o-transform: translate(0%, -50%);
-			transform: translate(0%, -50%);
-	padding: 0 15px;
+	-moz-transform: translate(0%, -50%);
+	-ms-transform: translate(0%, -50%);
+	-o-transform: translate(0%, -50%);
+	transform: translate(0%, -50%);
+	padding: 0 10px;
 }
 
 .intro h1{
@@ -458,29 +463,38 @@ textarea.form-control {
 .social-links {
 	list-style: none;
 	padding: 0;
-	margin: 0 0 20px;
 }
 
 .social-links li {
 	display: inline-block;
-	margin: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 .social-links a {
-	width: 5vw;
-	height: 5vw;
+	width: 35px;
+	height: 35px;
 	display: block;
-	line-height: 5vw;
+	line-height: 35px;
 	text-align: center;
 	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-			border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 	font-size: 2vw;
-	color: rgba(255, 255, 255, 1);
+	color: #e5e5e5;
 }
 
-.social-links a:hover {
-	color: rgba(255, 255, 255, .8);
+.fa-github:hover {
+	color: #333 ;
+}
+.fa-facebook:hover{
+	color: #3b5998;
+}
+.fa-linkedin:hover{
+	color: #0077B5;
+}
+.fa-envelope:hover{
+	color:#7f7f7f;
 }
 
 /* ---------------------------------------------- /*
