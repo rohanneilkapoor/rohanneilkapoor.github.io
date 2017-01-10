@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="780px" height="450px" viewBox="0 0 780 450" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Macbook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="365" height="226.721053"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#00FAFF" offset="0%"></stop>
+            <stop stop-color="#00FF8A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.2666394%" y1="8.10767136%" x2="49.2666394%" y2="114.247334%" id="linearGradient-4">
+            <stop stop-color="#FFEF00" offset="0%"></stop>
+            <stop stop-color="#FF00CE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-25.0266233%" x2="50%" y2="111.463762%" id="linearGradient-5">
+            <stop stop-color="#00FAFF" offset="0%"></stop>
+            <stop stop-color="#6F7AE7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-25.1121061%" y1="67.6815258%" x2="138.648897%" y2="67.6815271%" id="linearGradient-6">
+            <stop stop-color="#00FCD6" offset="0%"></stop>
+            <stop stop-color="#00FCD3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="2.29791135%" x2="50%" y2="97.6945298%" id="linearGradient-7">
+            <stop stop-color="#00F9FF" offset="0%"></stop>
+            <stop stop-color="#00FE47" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#FFEE00" offset="0%"></stop>
+            <stop stop-color="#FF00A7" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-9" x="0" y="0" width="365" height="40.9613623"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy" transform="translate(-112.000000, -1023.000000)">
+            <g id="Macbook" transform="translate(113.000000, 1024.000000)">
+                <g id="Body">
+                    <rect id="Rectangle-2" stroke="#CCD2D5" stroke-width="1.2" fill="#EAF0F2" transform="translate(388.797501, 216.296833) rotate(-90.000000) translate(-388.797501, -216.296833) " x="172.933889" y="-102.168326" width="431.727225" height="636.930317" rx="11.8"></rect>
+                    <g id="Group" transform="translate(385.557522, 15.811765)">
+                        <path d="M3.64497657,5.27058824 C2.52839875,5.27058824 1.61998959,4.36120905 1.61998959,3.24343891 C1.61998959,2.12566878 2.52839875,1.21628959 3.64497657,1.21628959 C4.7615544,1.21628959 5.66996356,2.12566878 5.66996356,3.24343891 C5.66996356,4.36120905 4.7615544,5.27058824 3.64497657,5.27058824" id="Fill-9" fill="#BAC1C4"></path>
+                        <path d="M3.23997918,0 C1.45336209,0 0,1.45491403 0,3.24343891 C0,5.0319638 1.45336209,6.48687783 3.23997918,6.48687783 C5.02659627,6.48687783 6.47995836,5.0319638 6.47995836,3.24343891 C6.47995836,1.45491403 5.02659627,0 3.23997918,0 M3.23997918,1.85339367 C4.00692853,1.85339367 4.62854168,2.47567059 4.62854168,3.24343891 C4.62854168,4.01120724 4.00692853,4.63348416 3.23997918,4.63348416 C2.47302982,4.63348416 1.85141667,4.01120724 1.85141667,3.24343891 C1.85141667,2.47567059 2.47302982,1.85339367 3.23997918,1.85339367" id="Fill-11" fill="#D0D8DB"></path>
+                    </g>
+                    <rect id="Rectangle-3" fill="#DEE3E6" x="96.7943779" y="34.4615385" width="584.816242" height="366.508597" rx="0.4"></rect>
+                    <g id="Group-2" transform="translate(0.000000, 433.404525)">
+                        <path d="M0.806590497,-0.000196785832 C0.584796753,-0.000302807261 0.404997397,0.176580281 0.404997397,0.39939258 L0.404997397,5.31850265 C0.404997397,5.31850265 21.8690684,13.164204 98.0093701,14.1896565 C174.354544,14.0661271 652.855804,14.1896565 652.855804,14.1896565 C652.855804,14.1896565 746.2433,14.7099054 777.423353,4.99384201 L777.423353,0.765177589 C777.423353,0.547501464 777.24434,0.370954526 777.02176,0.370848129 L0.806590497,-0.000196785832 Z" id="Path-37" stroke="#CBD2D4" stroke-width="2.4"></path>
+                        <path d="M778,4.86515837 C778,4.86515837 769.987427,14.5954751 603.669714,14.2479638 C548.842238,14.1334049 470.287558,14.1312187 389.607496,14.179766 C307.975352,14.1312117 229.249422,14.1332132 174.330191,14.2479638 C8.01256907,14.5954751 0,4.86515837 0,4.86515837 L389.202499,4.86515837 L778,4.86515837 Z" id="Combined-Shape" fill="#CCD2D5"></path>
+                        <rect id="Rectangle-5" fill="#EAEFF1" x="0" y="0" width="778" height="4.86515837" rx="0.4"></rect>
+                        <path d="M315.492972,0 L462.912025,0 L462.912025,4.86515837 C462.912025,4.86515837 444.343844,6.48687783 389.493591,6.48687783 C334.643338,6.48687783 315.492972,4.86515837 315.492972,4.86515837 L315.492972,0 Z" id="Rectangle-10" fill="#D9E0E3"></path>
+                    </g>
+                </g>
+                <g id="STATISTICS" transform="translate(207.000000, 111.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#2A2D40" xlink:href="#path-1"></use>
+                    <rect id="BG" fill="#2A2D40" mask="url(#mask-2)" x="0" y="0" width="365" height="226.721053"></rect>
+                    <g id="CHART" mask="url(#mask-2)">
+                        <g transform="translate(23.712993, 59.073976)">
+                            <g id="TABLE" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 0.240092)">
+                                <text id="0" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="6.4125" font-weight="300" fill="#797C94">
+                                    <tspan x="10.4423254" y="127.103158">0</tspan>
+                                </text>
+                                <text id="50k" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="6.4125" font-weight="300" letter-spacing="0.3" fill="#797C94">
+                                    <tspan x="3.30798794" y="102.882526">50</tspan>
+                                    <tspan x="11.0386879" y="102.882526">k</tspan>
+                                </text>
+                                <text id="100k" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="6.4125" font-weight="300" letter-spacing="0.3" fill="#797C94">
+                                    <tspan x="-0.557362061" y="78.6618948">100</tspan>
+                                    <tspan x="11.0386879" y="78.6618948">k</tspan>
+                                </text>
+                                <text id="150k" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="6.4125" font-weight="300" letter-spacing="0.3" fill="#797C94">
+                                    <tspan x="-0.557362061" y="54.4412632">150</tspan>
+                                    <tspan x="11.0386879" y="54.4412632">k</tspan>
+                                </text>
+                                <text id="200k" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="6.4125" font-weight="300" letter-spacing="0.3" fill="#797C94">
+                                    <tspan x="-0.557362061" y="30.2206316">200</tspan>
+                                    <tspan x="11.0386879" y="30.2206316">k</tspan>
+                                </text>
+                                <text id="250k" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="6.4125" font-weight="300" letter-spacing="0.3" fill="#797C94">
+                                    <tspan x="-0.557362061" y="6.04986601">250</tspan>
+                                    <tspan x="11.0386879" y="6.04986601">k</tspan>
+                                </text>
+                                <path id="Line-7" stroke="#424561" stroke-width="0.5" stroke-linecap="square"></path>
+                                <path id="Line-6" stroke="#424561" stroke-width="0.5" stroke-linecap="square"></path>
+                                <path id="Line-5" stroke="#424561" stroke-width="0.5" stroke-linecap="square"></path>
+                                <path id="Line-4" stroke="#424561" stroke-width="0.5" stroke-linecap="square"></path>
+                                <path id="Line-3" stroke="#424561" stroke-width="0.5" stroke-linecap="square"></path>
+                                <path id="Line-2" stroke="#424561" stroke-width="0.5" stroke-linecap="square"></path>
+                            </g>
+                            <g id="GRAPHS" stroke-width="1" fill-rule="evenodd" transform="translate(25.814145, 12.294584)" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M0.14423493,79.8721501 C27.0184716,79.8721526 36.7767467,32.73619 52.2493591,32.73619 C67.7219716,32.73619 71.5196126,68.0957098 90.9118024,68.0957111 C110.303992,68.0957124 118.063481,0.233344686 140.476976,0.233345496 C162.890471,0.233346305 176.750922,96.9581621 204.420576,96.958161 C232.090231,96.9581599 250.143483,9.17854333 291.502142,9.17854275" id="LIKES_GRAPH" stroke="url(#linearGradient-3)" stroke-width="1.2"></path>
+                                <path d="M0.330649928,7.36316257 C30.899353,7.36316505 39.051867,95.2701404 61.8456068,95.2701404 C84.6393465,95.2701404 90.0587222,30.8840512 110.098218,30.8840512 C130.137715,30.8840512 138.639639,95.2701404 162.046605,95.2701404 C185.453572,95.2701404 197.733347,43.1774637 219.978349,43.1774637 C242.22335,43.1774637 262.538388,87.8355247 291.02001,87.8355247" id="COMMENTS_GRAPH" stroke="url(#linearGradient-4)" stroke-width="1.2"></path>
+                            </g>
+                            <g id="VALUE" stroke-width="1" fill-rule="evenodd" transform="translate(65.454616, 25.116777)">
+                                <path d="M15.9788228,11.75413 L19.6660425,11.75413 C22.9171543,11.75413 25.5515008,9.12287841 25.5515008,5.87706502 C25.5515008,2.63785621 22.9164914,0 19.6660425,0 L5.92297884,0 C2.67186708,0 0.0375205592,2.63125164 0.0375205592,5.87706502 C0.0375205592,9.11627383 2.67252998,11.75413 5.92297884,11.75413 L9.61608716,11.75413 L12.797455,14.9354979 L15.9788228,11.75413 Z" id="Rectangle-3" fill="url(#linearGradient-5)"></path>
+                                <text id="157k" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="7.125" font-weight="300" fill="#FFFFFF">
+                                    <tspan x="4.95271382" y="8.48106089">157k</tspan>
+                                </text>
+                                <ellipse id="Oval-2" stroke="url(#linearGradient-6)" stroke-width="1.2" fill="#2B2D41" cx="12.7569901" cy="19.9412153" rx="2.25123355" ry="2.24900925"></ellipse>
+                            </g>
+                            <text id="2015" font-family="HelveticaNeue-UltraLight, Helvetica Neue" font-size="10.6875" font-weight="200" letter-spacing="0.3">
+                                <tspan x="294.161184" y="150.038309" fill="#797C94">201</tspan>
+                                <tspan x="312.887934" y="150.038309" fill="#797C94">5</tspan>
+                            </text>
+                            <g id="LEGEND" stroke-width="1" fill-rule="evenodd" transform="translate(84.646382, 141.837517)">
+                                <g id="LIKES">
+                                    <ellipse id="Oval-2" stroke="url(#linearGradient-7)" stroke-width="1.2" cx="4.50246711" cy="4.49801849" rx="4.50246711" ry="4.49801849"></ellipse>
+                                    <text id="Likes" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="7.5" font-weight="300" letter-spacing="0.337028146" fill="#E6E7F0">
+                                        <tspan x="15.0082237" y="7">Like</tspan>
+                                        <tspan x="28.6413363" y="7" letter-spacing="0.252417719">s</tspan>
+                                    </text>
+                                </g>
+                                <g id="COMMENTS" transform="translate(83.445724, 0.000000)">
+                                    <ellipse id="Oval-2" stroke="url(#linearGradient-8)" stroke-width="1.2" cx="4.50246711" cy="4.49801849" rx="4.50246711" ry="4.49801849"></ellipse>
+                                    <text id="Comments" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="7.5" font-weight="300" letter-spacing="0.337028146" fill="#E6E7F0">
+                                        <tspan x="15.0082237" y="7">Comments</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="NAVBAR" mask="url(#mask-2)">
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                            <use fill="#25273B" fill-rule="evenodd" xlink:href="#path-9"></use>
+                        </g>
+                        <g id="Month-+-Day-+-Year" transform="translate(126.669408, 15.293263)" font-size="8.90625" font-family="HelveticaNeue-Thin, Helvetica Neue" letter-spacing="0.45" font-weight="300">
+                            <text id="Month" fill="#797C94">
+                                <tspan x="42.0605469" y="9">Mont</tspan>
+                                <tspan x="62.7774219" y="9">h</tspan>
+                            </text>
+                            <text id="Day" fill="#797C94">
+                                <tspan x="0" y="9">Da</tspan>
+                                <tspan x="11.2935937" y="9">y</tspan>
+                            </text>
+                            <text id="Year" fill="#00FFEE">
+                                <tspan x="94.8144531" y="9">Yea</tspan>
+                                <tspan x="109.443672" y="9">r</tspan>
+                            </text>
+                        </g>
+                        <g id="MENU" transform="translate(17.409539, 14.093791)" stroke-linecap="round" stroke-width="0.5" stroke="#FFFFFF">
+                            <path id="Line"></path>
+                            <path id="Line-Copy-2"></path>
+                            <path id="Line-Copy-4"></path>
+                        </g>
+                        <g id="CLOSE" transform="translate(334.383224, 14.093791)" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="square">
+                            <path d="M0.131884766,0.131788731 L13.0995847,13.090046" id="Line"></path>
+                            <path d="M0.131884766,0.131788731 L13.0995847,13.090046" id="Line-Copy" transform="translate(6.594238, 6.589437) scale(1, -1) translate(-6.594238, -6.589437) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

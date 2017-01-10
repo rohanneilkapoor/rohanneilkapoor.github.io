@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="full">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta content="Rohan, Kapoor, Rohan Kapoor, Rohan Neil Kapoor, UCLA, University of California Los Angeles, computer science, design, business development, software, websites, freelance, web design, web, web development, marketing, strategy, online, online strategy, SEO, search engine optimization, small business" name="Keywords" />
@@ -10,96 +10,330 @@
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link href="font-awesome.min.css" rel="stylesheet" media="screen">
     <link href="animate.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <!-- Latest compiled and minified JavaScript -->
     <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="wow.min.js"></script>
 
 </head>
+
+<script>
+    new WOW().init();
+    $(function() {
+        console.log( "ready!" );
+
+        $(window).scroll(function(){
+            $(".top-tag").css("opacity", 1 - $(window).scrollTop() / 500);
+            if($(".top-tag").css("opacity") == 0){
+                jQuery('#top').hide();
+            }
+            else{
+                jQuery('#top').show();
+            }
+        });
+        $(".big-btn").click(function() {
+            console.log("hello");
+            $('html,body').animate({
+                        scrollTop: $("#portfolio-start").offset().top},
+                    'slow');
+        })
+        $(".small-btn").click(function() {
+            console.log("hello");
+            $('html,body').animate({
+                        scrollTop: $("#portfolio-start-small").offset().top},
+                    'slow');
+        })
+    });
+
+</script>
+
 <body>
-    <script>
-        new WOW().init();
-    </script>
-    <style>
-        @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800,100,200,600);
-        body {
-            font: 800 70px 'Raleway', sans-serif;
-            color: #666;
-            overflow-x: hidden;
-        }
-        .full {
-            background: url('background-image.jpg') no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            background-size: cover;
-            -o-background-size: cover;
-        }
-        .intro {
-            position: absolute;
-            width: 100%;
-            top: 40%;
-            left: 0;
-            text-align: center;
-            -webkit-transform: translate(0%, -50%);
-            -moz-transform: translate(0%, -50%);
-            -ms-transform: translate(0%, -50%);
-            -o-transform: translate(0%, -50%);
-            transform: translate(0%, -50%);
-            padding: 0 10px;
-        }
-        .social-links {
-            list-style: none;
-            padding: 0;
-        }
+<div class="top-tag"id="top">
+    <!--<div style=" position: absolute; top: 30px; right: 5%;">
+        <a id="six" class="button">About</a>
+    </div>-->
+    <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div>
+                <div class="navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="./index.html" class="nav-link">WORK</a>
+                        </li>
+                        <li>
+                            <a href="./about.html" class="nav-link">ABOUT</a>
+                        </li>
 
-        .social-links li {
-            display: inline-block;
-            margin-left: 15px;
-            margin-right: 15px;
-        }
+                    </ul>
+                </div>
 
-        .social-links a {
-            width: 35px;
-            height: 35px;
-            display: block;
-            line-height: 35px;
-            text-align: center;
-            -webkit-border-radius: 3px;
-            -moz-border-radius: 3px;
-            border-radius: 3px;
-            font-size: 2vw;
-            color: #e5e5e5;
-        }
+            </div>
+        </div>
 
-        .fa-github:hover {
-            color: #333 ;
-        }
-        .fa-facebook:hover{
-            color: #3b5998;
-        }
-        .fa-linkedin:hover{
-            color: #0077B5;
-        }
-        .fa-envelope:hover{
-            color:#7f7f7f;
-        }
-    </style>
 
-    <div class="container">
-        <div class="intro">
-            <img class="animated fadeIn" src="headshot.png" width="200">
-            <div class="animated fadeIn" style="color:#e5e5e5; padding-top: 40px;">Rohan Kapoor</div>
-            <ul class="social-links">
-                <li><a href="https://www.facebook.com/rohan.kapoor.129" class="animated wow fadeInUp" style="font-size: 40px;"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://github.com/rohanneilkapoor" class="animated wow fadeInUp" data-wow-delay=".15s" style="font-size: 40px;"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/rohanneilkapoor" class="animated wow fadeInUp" data-wow-delay=".3s" style="font-size: 40px;"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="mailto:rohanneilkapoor@gmail.com" class="animated wow fadeInUp" data-wow-delay=".45s" style="font-size: 40px;"><i class="fa fa-envelope"></i></a></li>
-            </ul>
+
+    </nav>
+    <div style="margin-left: 5%; margin-right:5%; padding-top: 150px;">
+        <h1 >Rohan Kapoor</h1>
+        <p style="max-width: 600px;">
+            I design, code, and more.
+            I’m the Head of Design and a Director of LA Hacks,
+            <span style="color: #252525;">the nation’s largest hackathon</span>,
+            a Freelance Web Design Strategist, as well as a third year Computer Science student at
+            <span style="color:#252525;">UCLA</span>. Last summer,
+            I interned at <span style="color: #252525;">American Express</span> working on user
+            interface design and development.
+        </p>
+        <button class="btn big-btn" type="button">Portfolio</button>
+        <button class="btn small-btn" type="button">Portfolio</button>
+
+    </div>
+    <img src="images/home_illustration.svg" style="overflow:hidden; width:100%; bottom: 0; position: absolute; min-width: 900px;">
+
+</div>
+<section id="portfolio-start" class="big-section">
+    <h1 class="big-number" style="opacity: .06; font-size: 110vh; position: absolute; right: 150px;">1</h1>
+    <div class=" element">
+        <img src="images/la_hacks_event_logo.svg" style="width: 500px; position: absolute !important; left: 60px; top: -40%; z-index: -50 !important;">
+        <div class="row">
+            <div class=" col-xs-6 col-xs-offset-6 home-block right-block">
+                <h2 style="color: #a9abb2;">
+                    Head of Design
+                </h2>
+                <h1>
+                    LA Hacks
+                </h1>
+                <div class="hline" style="background-color:#252525; "></div>
+                <p class="home-sentence" >
+                    Leading the design effort for the nation's largest hackathon
+                </p>
+
+                <button class="btn " onclick="window.location.href='./lahacks.html'">SEE MORE</button>
+            </div>
         </div>
     </div>
+</section>
+
+<section id="portfolio-start-small" class="small-section">
+    <div class="small-div">
+        <img src="images/la_hacks_event_logo.svg" class="small-img" style="padding-left: 20%; padding-right: 20%;">
+        <div style="text-align: center; padding-left: 10%; padding-right: 10%; padding-top: 50px;">
+            <h2 style="color: #a9abb2;">
+                Head of Design
+            </h2>
+            <h1>
+                LA Hacks
+            </h1>
+            <div class="hline-small" style="background-color:#252525; "></div>
+            <p class="home-small-sentence" style="text-align: center;">
+                Leading the design effort for the nation's largest hackathon
+            </p>
+
+            <button class="btn " onclick="window.location.href='./lahacks.html'">SEE MORE</button>
+        </div>
+    </div>
+</section>
+
+<section class="big-section">
+    <h1 class="big-number" style="opacity: .06; font-size: 110vh; position: absolute;">2</h1>
+    <div class="element" style="margin-left: 5%;">
+
+        <div class="row">
+            <div class="home-block left-block">
+                <h2 style="color: #a9abb2;">
+                    Freelance Web Design Strategy
+                </h2>
+                <h1>
+                    SKM Industries
+                </h1>
+                <div class="hline" style="background-color:#252525; "></div>
+                <p class="home-sentence" >
+                    Designing and building a responsive and converting site
+                </p>
+
+                <button class="btn " onclick="window.location.href='./skm.html'">SEE MORE</button>
+            </div>
+        </div>
+        <img src="images/skm_laptop.png" class="macbook-and-laptop">
+    </div>
+
+</section>
+
+<section class="small-section">
+    <div class="small-div">
+        <img src="images/skm_laptop.png" class="small-img">
+        <div style="text-align: center; padding-left: 10%; padding-right: 10%; padding-top: 50px;">
+            <h2 style="color: #a9abb2;">
+                Freelance Web Design Strategy
+            </h2>
+            <h1>
+                SKM Industries
+            </h1>
+            <div class="hline-small" style="background-color:#252525; "></div>
+            <p class="home-small-sentence" style="text-align: center;">
+                Designing and building a responsive and converting site
+            </p>
+
+            <button class="btn " onclick="window.location.href='./skm.html'">SEE MORE</button>
+        </div>
+    </div>
+</section>
+
+<section class="big-section">
+    <h1 class="big-number" style="opacity: .06; font-size: 110vh; position: absolute; right: 100px;">3</h1>
+    <div class=" element">
+        <img src="images/mrkt_background.png" class="macbook" style="left: -210px !important;">
+        <div class="row">
+            <div class=" col-xs-6 col-xs-offset-6 home-block right-block">
+                <h2 style="color: #a9abb2;">
+                    UI/UX Design and Development
+                </h2>
+                <h1>
+                    Mrkt
+                </h1>
+                <div class="hline" style="background-color:#252525; "></div>
+                <p class="home-sentence" >
+                    Designing and building a scalable social network
+                </p>
+
+                <button class="btn " onclick="window.location.href='./mrkt.html'">SEE MORE</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="small-section">
+    <div class="small-div">
+        <img src="images/mrkt_background.png" class="small-img">
+        <div style="text-align: center; padding-left: 10%; padding-right: 10%; padding-top: 50px;">
+            <h2 style="color: #a9abb2;">
+                UI/UX Design and Development
+            </h2>
+            <h1>
+                Mrkt
+            </h1>
+            <div class="hline-small" style="background-color:#252525; "></div>
+            <p class="home-small-sentence" style="text-align: center;">
+                Designing and building a scalable social network
+            </p>
+
+            <button class="btn " onclick="window.location.href='./mrkt.html'">SEE MORE</button>
+        </div>
+    </div>
+</section>
+
+<section class="big-section">
+    <h1 class="big-number" style="opacity: .06; font-size: 110vh; position: absolute; left: 50px;">4</h1>
+    <div class="element" style="margin-left: 5%;">
+
+        <div class="row">
+            <div class="home-block left-block">
+                <h2 style="color: #a9abb2;">
+                    UI Design and Development
+                </h2>
+                <h1>
+                    American Express
+                </h1>
+                <div class="hline" style="background-color:#252525; "></div>
+                <p class="home-sentence" >
+                    Designing and building data visualization applications
+                </p>
+
+                <button class="btn " onclick="window.location.href='./amex.html'">SEE MORE</button>
+            </div>
+        </div>
+        <img src="images/amex_background.png" class="macbook">
+    </div>
+
+</section>
+
+<section class="small-section">
+    <div class="small-div">
+        <img src="images/amex_background.png" class="small-img">
+        <div style="text-align: center; padding-left: 10%; padding-right: 10%; padding-top: 50px;">
+            <h2 style="color: #a9abb2;">
+                UI Design and Development
+            </h2>
+            <h1>
+                American Express
+            </h1>
+            <div class="hline-small" style="background-color:#252525; "></div>
+            <p class="home-small-sentence" style="text-align: center;">
+                Designing and building data visualization applications
+            </p>
+
+            <button class="btn " onclick="window.location.href='./amex.html'">SEE MORE</button>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="big-section">
+    <h1 class="big-number" style="opacity: .06; font-size: 110vh; position: absolute; right: 100px;">5</h1>
+    <div class=" element">
+        <img src="images/SEP-back-graphic.jpg" style="width: 600px; position: absolute !important; left: 0; top: -50%; z-index: -50 !important;">
+        <div class="row">
+            <div class=" col-xs-6 col-xs-offset-6 home-block right-block">
+                <h2 style="color: #a9abb2;">
+                    Graphic Design and Social Media
+                </h2>
+                <h1>
+                    Sigma Eta Pi
+                </h1>
+                <div class="hline" style="background-color:#252525; "></div>
+                <p class="home-sentence" >
+                    A design approach to achieving the organization's largest
+                    recruitment event
+                </p>
+
+                <button class="btn " onclick="window.location.href='./sigmaetapi.html'">SEE MORE</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="small-section">
+    <div class="small-div" style="padding-bottom: 100px;">
+        <img src="images/SEP-back-graphic.jpg" class="small-img">
+        <div style="text-align: center; padding-left: 10%; padding-right: 10%;">
+            <h2 style="color: #a9abb2; margin-top: 0;">
+                Graphic Design and Social Media
+            </h2>
+            <h1>
+                Sigma Eta Pi
+            </h1>
+            <div class="hline-small" style="background-color:#252525; "></div>
+            <p class="home-small-sentence" style="text-align: center;">
+                A design approach to achieving the organization's largest
+                recruitment event
+            </p>
+
+            <button class="btn " onclick="window.location.href='./sigmaetapi.html'">SEE MORE</button>
+        </div>
+    </div>
+</section>
+
+<footer style="background-color: white; padding-top: 100px; padding-bottom: 50px;">
+    <div style="text-align: center; font-size: 16px;
+    letter-spacing: 2.9px;
+    text-transform: uppercase;
+    font-family: LeagueSpartan, Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    ">
+        Rohan Kapoor
+    </div>
+    <p style="text-align: center; padding: 0; margin: 0;">
+        rohanneilkapoor@gmail.com
+    </p>
+    <p style="text-align: center; padding: 0; margin: 0;">
+        (661) 964 7255
+    </p>
+</footer>
 
 </body>
 </html>

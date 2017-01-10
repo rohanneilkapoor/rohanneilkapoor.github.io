@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
+
+@font-face {
+    font-family: LeagueSpartan;
+    src: url('LeagueSpartan-Bold.otf');
+}
+.navbar{
+    background-color: white;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.05);
+}
+.navbar-nav {
+    margin: 20px 0px
+}
+.big-nav{
+
+}
+@media(max-width: 767px){
+    .big-nav{
+        display: none;
+    }
+}
+@media (min-width: 0px) {
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-nav > li {
+        float: none;
+        display: inline-block;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+
+    .navbar-nav>li>a {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 11px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-family: LeagueSpartan, Arial, Helvetica, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        color: #a9abb2;
+        -webkit-transition: all 0.6s;
+        -moz-transition: all 0.6s;
+        -o-transition: all 0.6s;
+        transition: all 0.6s;
+        text-shadow: none;
+    }
+    .navbar-nav>li {
+        padding: 0 !important;
+    }
+    .navbar-nav>li>a:hover {
+        background-color: transparent;
+        color: #252525;
+    }
+    .navbar-nav>li>a:active, .navbar-nav>li>a:focus{
+        background-color: transparent;
+    }
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a.sep-link{
+    color: #252525;
+    border-bottom: 1px solid #252525;
+}
+a.sep-link:hover{
+    color: #252525;
+    border-bottom: none;
+}
+
+a.mrkt-link{
+    color: #252525;
+    border-bottom: 1px solid #252525;
+}
+a.mrkt-link:hover{
+    color: #252525;
+    border-bottom: none;
+}
+b{
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    color: #252525;
+    font-weight: 400;
+}
+p{
+    font-family: "Libre Baskerville";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26.67px;
+    -webkit-font-smoothing: antialiased;
+    color: #616366;
+    padding-bottom: 20px;
+}
+span{
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    color:#252525;
+}
+
+li{
+    font-family: "Libre Baskerville";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26.67px;
+    -webkit-font-smoothing: antialiased;
+    color: #616366;
+    list-style-type: square;
+    position:relative;
+    padding-left:32px;
+
+}
+li::before{
+    position:absolute;
+    top:0;
+    left:0;
+}
+section{
+    padding-bottom: 40px;
+    display: inline-block;
+    text-align: left;
+}
+.background{
+    text-align: justify;
+}
+h1{
+    font-family: LeagueSpartan;
+    font-size: 70px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+h2{
+    font-family: LeagueSpartan;
+    font-size: 40px;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    color: #252525;;
+    padding-bottom: 5px;
+}
+h3{
+    font-family: LeagueSpartan;
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    color: #252525;
+    padding-top: 20px;
+}
+h4{
+    font-family: LeagueSpartan;
+    font-size: 24px;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+h5{
+    font-family: "Libre Baskerville";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26.67px;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(122, 124, 128);
+    padding-bottom: 20px;
+    text-align: center;
+}
+.subheading{
+    font-family: LeagueSpartan;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    color: #252525;
+
+}
+.body{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+
+}
+.palette{
+    display: block;
+    width: 23.3%;
+    padding-top: 23.3%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.2);
+    border-radius: 50%;
+    transition: all .3s;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.small-palette{
+    display: block;
+    width: 15%;
+    padding-top: 15%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.2);
+    border-radius: 50%;
+    transition: all .3s;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.small-image{
+    width: 60%;
+}
+
+@media(max-width:800px){
+
+    li{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .background{
+        text-align: center;
+    }
+    h1{
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+    .body{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media(max-width:600px){
+
+    .body{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .small-image{
+        width: 100%;
+    }
+}
+
+
+img{
+    max-width: 650px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.aza{
+    max-width: 390px;
+}
+.btn {
+    height: 50px;
+    width: 160px;
+    border-radius: 100px;
+    background: #252525;
+    font-family: LeagueSpartan, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 11px;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    box-shadow: 0 24px 46px -16px rgba(0, 0, 0, .8);
+    z-index: 10;
+
+}
+
+.btn,.btn::after{
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+    z-index: 10;
+
+}
+
+
+button:hover.btn:hover {
+    color: white;
+    box-shadow: 0 15px 30px -10px rgba(0,0,0,.8);
+    z-index: 10;
+}
+
+
+.btn:active,
+.btn:focus,
+button:focus,
+button:active{
+    background-image: none !important;
+    outline: 0 !important;
+    color: white;
+    z-index: 10;
+}
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="714px" height="175px" viewBox="0 0 714 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="14.4" y="14.3835616" width="685.2" height="146.232877" rx="1.2"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="685.2" height="146.232877" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="0" width="714" height="175" rx="1.2"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="714" height="175" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy" transform="translate(-156.000000, -114.000000)">
+            <g id="Group" transform="translate(156.000000, 114.000000)">
+                <use id="inside_rect" stroke="#EAEBEC" mask="url(#mask-2)" stroke-width="12" fill="#EAEBEC" xlink:href="#path-1"></use>
+                <use id="outside_rect" stroke="#EAEBEC" mask="url(#mask-4)" stroke-width="12" xlink:href="#path-3"></use>
+                <text id="ROHAN-KAPOOR" font-family="LeagueSpartan-Bold, League Spartan" font-size="57.6" font-weight="bold" letter-spacing="3.6" fill="#2A2F36">
+                    <tspan x="79.2" y="110.349315">ROHAN KAPOO</tspan>
+                    <tspan x="592.7904" y="110.349315">R</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
+@font-face {
+    font-family: LeagueSpartan;
+    src: url('LeagueSpartan-Bold.otf');
+}
+* {
+    box-sizing: border-box;
+}
+#top{
+
+}
+html {
+    background-color: white;
+    overflow-x: hidden;
+}
+body{
+    z-index: 2;
+    position: relative !important;
+    top: 100vh;
+
+}
+section{
+    height:100vh;
+}
+h1{
+    font-size: 42px;
+    font-family: LeagueSpartan, Helvetica, sans-serif;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: 20px;
+    color: #252525;
+}
+h2{
+    font-size: 10px;
+    font-family: LeagueSpartan, Helvetica, sans-serif;
+    color: #a4a4a4;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 18px;
+}
+a{
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: LeagueSpartan, Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #a9abb2;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+}
+a:hover{
+    color: #252525 !important;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+span{
+    color:#252525;
+}
+.top-tag{
+    position: fixed;
+    width: 100%;
+    height:100vh;
+    z-index: 1;
+    margin: 0;
+}
+.mrkt-block{
+
+    padding-left: 120px;
+}
+.right-block{
+    padding-left: 60px;
+}
+.left-block{
+    padding-left: 60px;
+}
+.hline {
+    margin-bottom: 20px;
+    width:50px;
+    height:5px;
+}
+.hline-small{
+    margin-bottom: 20px;
+    height:5px;
+    margin-left: 46%;
+    margin-right: 46%;
+}
+.top-section{
+    border: 20px solid #7a7c80;
+}
+p{
+    font-family: Libre Baskerville;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    color: #7a7c80;
+    padding-bottom: 20px;
+    -webkit-font-smoothing: antialiased;
+}
+.p-link{
+    font-family: Libre Baskerville !important;
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    line-height: 28px !important;
+    color: #252525 !important;
+    -webkit-font-smoothing: antialiased !important;
+    letter-spacing: normal !important;
+    text-transform: none;
+    text-decoration: none;
+    border-bottom: 1px solid #252525;
+
+}
+.p-link:hover, .p-link:active, .p-link:focus{
+    border-bottom: none;
+}
+.home-sentence{
+    width: 400px;
+    font-size: 20px !important;
+    line-height: 35px !important;
+
+}
+.home-small-sentence{
+    font-size: 20px !important;
+    line-height: 35px !important;
+
+}
+
+.home-para{
+    font-size: 14px !important;
+    color: #7a7c80;
+    line-height: 26px;
+    width: 450px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:.4s;
+    -moz-animation-duration:.4s;
+    animation-duration:.4s;
+
+
+}
+.one{
+    -webkit-animation-delay: 1.3s;
+    -moz-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+}
+
+.two{
+    -webkit-animation-delay: 1.9s;
+    -moz-animation-delay: 1.9s;
+    animation-delay: 1.9s;
+}
+
+.btn {
+    height: 50px;
+    width: 160px;
+    border-radius: 100px;
+    background: #252525;
+    font-family: LeagueSpartan, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 11px;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    box-shadow: 0 24px 46px -16px rgba(0, 0, 0, .8);
+    z-index: 10;
+
+}
+
+.btn,.btn::after{
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+    z-index: 10;
+
+}
+
+
+button:hover.btn:hover {
+    color: white;
+    box-shadow: 0 15px 30px -10px rgba(0,0,0,.8);
+    z-index: 10;
+}
+
+
+.btn:active,
+.btn:focus,
+button:focus,
+button:active{
+    background-image: none !important;
+    outline: 0 !important;
+    color: white;
+    z-index: 10;
+}
+
+#sep{
+    background: url(images/homepage-front.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.element {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+::selection {
+    background: transparent; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background: transparent; /* Gecko Browsers */
+}
+
+.macbook{
+    width: 819px;
+    position: absolute !important;
+    left: 50%;
+    top: -25%;
+    z-index: -50 !important;
+}
+
+.macbook-and-laptop{
+    width: 819px;
+    position: absolute !important;
+    left: 50%;
+    top: -40%;
+    z-index: -50 !important;
+}
+
+@media(max-width: 1079px){
+    h1{
+        font-size: 42px;
+    }
+
+}
+#portfolio-start{
+
+}
+.big-number{
+
+}
+.big-section{
+
+}
+.big-btn{
+
+}
+.small-btn{
+    display: none;
+}
+.small-section{
+    display: none;
+}
+.small-img{
+    width: 100%;
+    padding-left: 10%;
+    padding-right:10%;
+    z-index: -50 !important;
+}
+.small-div{
+    padding-bottom: 250px;
+}
+@media(max-width: 1110px){
+    .big-number{
+        display: none;
+    }
+    .right-block{
+        padding-left: 120px;
+    }
+    .left-block{
+        padding-left: 40px;
+    }
+}
+@media(max-width: 991px){
+    .big-btn{
+        display:none;
+    }
+    .small-btn{
+        display: inline;
+    }
+    .big-section{
+        display: none;
+    }
+    .small-section{
+        display: inline;
+    }
+
+}
+
+.navbar-nav {
+    margin: 20px 0px
+}
+@media (min-width: 0px) {
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-nav > li {
+        float: none;
+        display: inline-block;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+
+    .navbar-nav>li>a {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-shadow: none;
+    }
+    .navbar-nav>li>a:hover, .navbar-nav>li>a:active,.navbar-nav>li>a:focus {
+        background-color: transparent;
+    }
+    a:focus{
+        color: #a9abb2;
+    }
+}
+.big-nav{
+
+}
+@media(max-width: 767px){
+    .big-nav{
+        display: none;
+    }
+}
+
+
+
+
+
