@@ -370,6 +370,16 @@ button:active{
         display: none;
     }
 }
+.home-top-block{
+    margin-left: 5%;
+    margin-right:5%;
+    padding-top: 150px;
+}
+@media(max-width: 600px){
+    .home-top-block{
+        padding-top:100px;
+    }
+}
 
 
 
