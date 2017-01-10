@@ -16,7 +16,7 @@ html {
 body{
     z-index: 2;
     position: relative !important;
-    padding-top: 100vh;
+    top: 100vh;
 
 }
 section{
