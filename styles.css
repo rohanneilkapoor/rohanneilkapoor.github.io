@@ -17,6 +17,7 @@ body{
     z-index: 2;
     position: relative !important;
     top: 100vh;
+    overflow-x: hidden;
 
 }
 section{
