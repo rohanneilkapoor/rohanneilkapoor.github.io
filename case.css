@@ -96,8 +96,8 @@ b{
 p{
     font-family: "Libre Baskerville";
     font-weight: 300;
-    font-size: 16px;
-    line-height: 26.67px;
+    font-size: 14px;
+    line-height: 28px;
     -webkit-font-smoothing: antialiased;
     color: #616366;
     padding-bottom: 20px;
@@ -111,8 +111,8 @@ span{
 li{
     font-family: "Libre Baskerville";
     font-weight: 300;
-    font-size: 16px;
-    line-height: 26.67px;
+    font-size: 14px;
+    line-height: 28px;
     -webkit-font-smoothing: antialiased;
     color: #616366;
     list-style-type: square;
@@ -170,7 +170,7 @@ h5{
     font-family: "Libre Baskerville";
     font-weight: 300;
     font-size: 14px;
-    line-height: 26.67px;
+    line-height: 28px;
     -webkit-font-smoothing: antialiased;
     color: rgb(122, 124, 128);
     padding-bottom: 20px;
