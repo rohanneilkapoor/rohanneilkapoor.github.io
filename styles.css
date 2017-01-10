@@ -303,10 +303,12 @@ button:active{
 .small-div{
     padding-bottom: 250px;
 }
-@media(max-width: 1110px){
+@media(max-width:1150px){
     .big-number{
         display: none;
     }
+}
+@media(max-width: 1110px){
     .right-block{
         padding-left: 120px;
     }
