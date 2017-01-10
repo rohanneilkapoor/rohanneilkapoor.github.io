@@ -380,6 +380,49 @@ button:active{
         margin-top:100px;
     }
 }
+i
+{
+    display: inline-block;
+    border-radius: 100px;
+    border: 1px solid #7a7c80;
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+}
+i:hover{
+    border: 1px solid transparent ;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+.fa-behance:before {
+    font-size: 15px;
+    content: "\f1b4";
+    line-height: 32px;
+    color: #7a7c80;
+}
+.fa-linkedin:before {
+    font-size: 15px;
+    content: "\f0e1";
+    line-height: 32px;
+    color: #7a7c80;
+}
+.fa-github:before {
+    font-size: 15px;
+    content: "\f09b";
+    line-height: 32px;
+    color: #7a7c80;
+}
+
 
 
 
