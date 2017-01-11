@@ -422,7 +422,9 @@ i:hover{
     -o-transition: all 0.6s;
     transition: all 0.6s;
 }
+.small-fix{
 
+}
 @media(max-width:776px){
     .prev,.next{
         line-height: 180px;
@@ -432,6 +434,9 @@ i:hover{
     .bottom-img{
         height: 80px;
         width: auto;
+    }
+    .small-fix{
+        margin-top: 40px;
     }
 }
 
