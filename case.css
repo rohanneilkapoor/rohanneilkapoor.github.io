@@ -223,6 +223,9 @@ h5{
     margin-right: 5%;
 
 }
+.med-image{
+    width: 80%;
+}
 .small-image{
     width: 60%;
 }
@@ -251,6 +254,9 @@ h5{
     .body{
         padding-left: 5%;
         padding-right: 5%;
+    }
+    .med-image{
+        width: 100%;
     }
 
     .small-image{
