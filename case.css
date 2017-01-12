@@ -121,6 +121,7 @@ li{
     list-style-type: square;
     position:relative;
     padding-left:32px;
+    padding-bottom: 15px;
 
 }
 li::before{
@@ -437,6 +438,28 @@ i:hover{
     }
     .small-fix{
         margin-top: 40px;
+    }
+}
+.va{}
+
+.va.vertical-align {
+    display: flex;
+    flex-direction: row;
+}
+
+.va.vertical-align > [class^="col-"],
+.va.vertical-align > [class*=" col-"] {
+    display: flex;
+    align-items: center;
+}
+@media(max-width: 767px){
+    .va.vertical-align{
+        display: block;
+    }
+    .va.vertical-align > [class^="col-"],
+    .va.vertical-align > [class*=" col-"] {
+        display: block ;
+        align-items: stretch;
     }
 }
 
