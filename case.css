@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
 
 @font-face {
     font-family: LeagueSpartan;
@@ -10,6 +10,7 @@ html {
 body{
     overflow-x: hidden;
 }
+
 .navbar{
     background-color: white;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,.05);
@@ -97,7 +98,7 @@ b{
     font-weight: 400;
 }
 p{
-    font-family: "Libre Baskerville";
+    font-family: "Libre Baskerville", serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 28px;
@@ -112,7 +113,7 @@ span{
 }
 
 li{
-    font-family: "Libre Baskerville";
+    font-family: "Libre Baskerville", serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 28px;
@@ -171,7 +172,7 @@ h4{
 
 }
 h5{
-    font-family: "Libre Baskerville";
+    font-family: "Libre Baskerville", serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 28px;
@@ -468,22 +469,16 @@ i:hover{
         align-items: stretch;
     }
 }
-.video-container {
-    position:relative;
-    padding-bottom:56.25%;
-    padding-top:30px;
-    height:0;
-    overflow:hidden;
-    margin-bottom: 50px;
-    box-shadow: 0 5px 20px 0 rgba(0,0,0,.2);
-}
 
-.video-container iframe, .video-container object, .video-container embed {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
+@media (min-width: 768px) {
+
+    .special-col-5 {
+        width: 48% !important;
+    }
+
+    .special-col-2 {
+        width: 4% !important;
+    }
 }
 
 
