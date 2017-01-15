@@ -485,5 +485,15 @@ i:hover{
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
 }
+.description{
+    font-size: 15px;
+    font-family: LeagueSpartan, Helvetica, sans-serif;
+    color: #a9abb2;;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    letter-spacing: 3px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 26px;
+}
 
 
