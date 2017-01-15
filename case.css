@@ -139,12 +139,11 @@ section{
     text-align: justify;
 }
 h1{
-    font-family: LeagueSpartan;
     font-size: 70px;
+    font-family: LeagueSpartan, Helvetica, sans-serif;
+    margin: 0;
     -webkit-font-smoothing: antialiased;
-    text-align: center;
-    color: white;
-    padding-bottom: 20px;
+    color: #252525;
 }
 h2{
     font-family: LeagueSpartan;
@@ -241,8 +240,7 @@ h5{
         text-align: center;
     }
     h1{
-        font-size: 50px;
-        padding-bottom: 20px;
+        font-size: 60px;
     }
     .body{
         padding-left: 10%;
@@ -479,6 +477,13 @@ i:hover{
     .special-col-2 {
         width: 4% !important;
     }
+}
+.element {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
 }
 
 
