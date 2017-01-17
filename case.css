@@ -21,7 +21,15 @@ body{
 .big-nav{
 
 }
+.la-hacks-video{
+    margin-left: 15%;
+    margin-right:15%;
+}
 @media(max-width: 767px){
+    .la-hacks-video{
+        margin-left: 5%;
+        margin-right:5%;
+    }
     .big-nav{
         display: none;
     }
@@ -516,5 +524,6 @@ i:hover{
     max-width: 1800px;
     z-index: -40;
 }
+
 
 
