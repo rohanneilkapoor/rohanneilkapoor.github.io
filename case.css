@@ -521,7 +521,6 @@ i:hover{
     bottom: 0;
     min-width: 1100px;
     display: block;
-    max-width: 1800px;
     z-index: -40;
 }
 
