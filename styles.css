@@ -392,11 +392,11 @@ button:active{
 .home-top-block{
     margin-left: 5%;
     margin-right:5%;
-    margin-top: 150px;
+    padding-bottom: 100px;
 }
 @media(max-width: 600px){
     .home-top-block{
-        margin-top:100px;
+
     }
 }
 i
