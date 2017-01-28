@@ -397,8 +397,13 @@ button:active{
 }
 @media(max-width: 600px){
     .home-top-block{
+        margin-right: 15%;
         top: 50% !important;
         transform: translateY(-50%) !important;
+    }
+    h1{
+        font-size: 30px;
+        padding-bottom: 12px;
     }
 }
 i
