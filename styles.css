@@ -392,9 +392,14 @@ button:active{
 .home-top-block{
     margin-left: 5%;
     margin-right: 5%;
+    top: 45% !important;
+    transform: translateY(-50%) !important;
 }
 @media(max-width: 600px){
-
+    .home-top-block{
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+    }
 }
 i
 {
