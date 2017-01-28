@@ -395,7 +395,7 @@ button:active{
     top: 45% !important;
     transform: translateY(-50%) !important;
 }
-@media(max-width: 600px){
+@media(max-width: 700px){
     .home-top-block{
         margin-right: 15%;
         top: 50% !important;
