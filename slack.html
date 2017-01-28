@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="Rohan, Kapoor, Rohan Kapoor, Rohan Neil Kapoor, UCLA, University of California Los Angeles, computer science, design, business development, software, websites, freelance, web design, web, web development, marketing, strategy, online, online strategy, SEO, search engine optimization, small business" name="Keywords" />
+
+    <title>Rohan Kapoor</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="animate.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="case.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="wow.min.js"></script>
+
+</head>
+<body>
+<script>
+    new WOW().init();
+</script>
+
+<nav class="navbar navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div>
+            <div class="navbar-header big-nav">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="./index.html" class="nav-link" style="font-size: 16px; letter-spacing: 2.9px; top: 3px;">ROHAN KAPOOR</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="navbar-right">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="./index.html" class="nav-link">WORK</a>
+                    </li>
+                    <li>
+                        <a href="./about.html" class="nav-link">ABOUT</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</nav>
+
+
+<div style="height: 100vh; position: relative;">
+    <div style="text-align: center; padding-left: 5%; padding-right: 5%;" class="element">
+        <h1 style="padding-bottom: 10px;">Slack Exercise</h1>
+        <div class="description">UX DESIGN</div>
+    </div>
+    <img class="waves" src="images/home_illustration.svg">
+</div>
+
+<div class="body" style="padding-bottom: 0;">
+    <section>
+        <h2>Overview</h2>
+        <p>
+            Slack is a team collaboration application that is mainly
+            used in office settings. However, with the increased popularity
+            of the product, a growing number of remote and non-traditional
+            professional teams are making use of the tool. As a college student,
+            I have found numerous organizations and teams to be collaborating
+            with Slack. Specifically at UCLA, I have been a part of 3 separate
+            organizations and every single one has utilized Slack.
+        </p>
+        <p>
+            Currently, I am on the LA Hacks organizing team, an organization
+            consisting of 35 members who meet once or twice a week but participate
+            in collaborative work nearly every day. The organization consists of
+            a tech team, design team, marketing team, hacker experience team,
+            sponsorship team, and more, making it feel like a company. As a
+            result we utilize Slack on a daily basis and have found it incredibly
+            helpful. Yet, members have also offered their fair share of complaints.
+        </p>
+        <p style="padding-bottom: 0;">
+            To learn more about this, I conducted interviews with 21 of the 35
+            members on the LA Hacks team about their use with Slack. I also
+            performed usability tests with 10 individuals in an effort to delve
+            further into the problems that were brought up in the interviews.
+            Because we are not in a traditional office setting, I found that
+            67% of the LA Hacks team members use Slack significantly more on
+            their mobile devices, therefore this design exercise is going to
+            focus on the mobile application, specifically for iOS.
+        </p>
+        <h3>
+            Problem
+        </h3>
+        <p style="padding-bottom: 0;">
+            Throughout my interviews, I received a huge range of feedback
+            about the numerous issues people had with the mobile application.
+            Some of the responses I received in interviews were people saying
+            “I wish you can do <span style="color: #616366; font-style: italic;">X</span>” when in fact you actually
+            can do most of what they mentioned (keep in mind, the LA Hacks team
+            has been using Slack to collaborate for almost 4 months now). Others
+            complained about their difficulties of making use of simple features
+            claiming that “<span style="color: #616366; font-style: italic;">X</span> is hard to find” or “I always click on <span style="color: #616366; font-style: italic;">X</span>
+            thinking it will do <span style="color: #616366; font-style: italic;">Y</span>.” Eventually, I began to realize that these
+            “problems” being talked about were merely symptoms of a much bigger
+            problem: <span>discoverability</span>.
+        </p>
+        <h3>
+            Solutions
+        </h3>
+        <ul>
+            <li style="list-style-type: decimal;">
+                <p>
+                    Utilize Slackbot and artificial intelligence to better understand
+                what the user is currently doing and assist them with useful tools
+                that Slack already provides to achieve better discoverability.
+                </p>
+                <p style="padding-bottom: 0;">
+                    Why Slackbot? Currently, Slackbot is a powerful tool confined to a
+                simple chat utility. It is meant to be an assistant to the user,
+                yet it is incredibly easy to forget that it exists. Although only
+                28.6% of the people I interviewed didn’t know what Slackbot was,
+                the remaining 71.4% said that they "pretty much never use it"
+                or don’t even know how to use it. Let’s go over that again: <span>100%
+                of the interviewees who know what Slackbot is "pretty much never
+                use it" or don’t even know how to use it.</span></p>
+            </li>
+            <li style="list-style-type: decimal;">
+                Implement layout changes based off of the data collected from the usability tests.
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2>Symptom #1: Productivity Killer</h2>
+        <p style="padding-bottom: 0;">
+            At times, the mobile application can be a productivity killer.
+            There can be too many notifications and managing those notifications
+            is difficult. This results in people turning off push notifications
+            and/or just ignoring slack entirely.
+        </p>
+        <h3>Keeping Up With Conversations</h3>
+        <p><span>Problem: </span>57.1% of all interviewees said their biggest problem with Slack involved
+            notification management and keeping up with conversations solely to make
+            sure important information is not missed. To quote one individual, “It’s
+            hard to catch up on what you missed, and to know if it’s relevant to you.
+            Constantly scrolling up and reading all the messages can sometimes be a pain.”
+        </p>
+        <p><span>Solution #1: </span>After the user has missed an <span>important but lengthy</span>
+            conversation and opens the chat screen, Slackbot pops up and offers to
+            give a summary of the conversation. A conversation can be determined to
+            be <span>important but lengthy</span> by an algorithm that takes into account a
+            variety of factors including the rate at which messages were being sent,
+            the types of words used, the number of messages, the use of threads, and the
+            number of people involved in the conversation.
+        </p>
+        <img src="images/slack_images/sub-prob1.1-sol1-wireframe.JPG" style="width: 100%; margin-top: 20px; margin-bottom: 50px;">
+        <img src="images/slack_images/sub-prob1.1-sol1-mockups.png" style="width: 100%; margin-bottom: 50px;">
+
+        <div class="iphone-container" style="width: 100%; margin-bottom: 50px;">
+            <video autoplay="autoplay" loop="loop">
+                <source src="images/slack_prototypes/sub-prob-1.1-sol1-finished.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <p><span>Solution #2: </span>Slack allows you to get notified about specific words, yet
+            61.9% of the interviewees did not know about this feature. Thus,
+            Slackbot can give a recommendation to a user to use highlight words
+            based on specific criteria. In one scenario, a user has a
+            channel on mute but has been reading the chat a considerable amount, without contributing
+            much. On Slackbot’s appearance, the user can then set highlight words that
+            only apply to that specific channel.
+        </p>
+        <img src="images/slack_images/sub-prob1.1-sol2-wireframe.JPG" style="width: 100%; margin-top: 20px; margin-bottom: 50px;">
+        <img src="images/slack_images/sub-prob1.1-sol2-mockups.png" style="width: 100%; margin-bottom: 50px;">
+
+        <div class="iphone-container" style="width: 100%; margin-bottom: 50px;">
+            <video autoplay="autoplay" loop="loop">
+                <source src="images/slack_prototypes/sub-prob-1.1-sol2-finished.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <h3>Muting a Channel</h3>
+        <p><span>Problem: </span>42.9% of the people I interviewed didn’t know it was possible to mute a channel.
+            Of the remaining 57.1% who did know about it, 58.3% of them have at least one channel on mute.
+            Clearly it’s a useful feature.
+        </p>
+        <p><span>Solution #1: </span>Slack should utilize push notifications to let users either mute a
+            channel indefinitely or mute the entire app for one hour. The reasoning for only being able
+            to mute the app for one hour is that we don’t want a user to forget that the app is on mute
+            and then miss important information. However, being able to indefinitely mute a channel while
+            the app is unmuted means that even if the user forgets about that action, he/she can still be
+            contacted through the app.
+        </p>
+        <p>
+            Furthermore, I added a "Reply" capability since the user should not have to open Slack to reply to a message.
+            I also added a "View" capability since the user should be able to open the app through the notification.
+        </p>
+        <img src="images/slack_images/sub-prob1.2-sol1-wireframe.JPG" style="width: 100%; margin-top: 20px; margin-bottom: 50px;">
+        <img src="images/slack_images/sub-prob1.2-sol1-mockups.png" style="width: 100%; margin-bottom: 50px;">
+
+        <div class="iphone-container" style="width: 100%; margin-bottom: 50px;">
+            <video autoplay="autoplay" loop="loop">
+                <source src="images/slack_prototypes/sub-prob-1.2-sol1-finished.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <p><span>Solution #2: </span>If the user hasn’t checked a channel for a while,
+            Slackbot pops up and gives the user the option to mute that specific channel.
+        </p>
+        <img src="images/slack_images/sub-prob1.2-sol2-wireframe.JPG" style="width: 100%; margin-top: 20px; margin-bottom: 50px;">
+        <img src="images/slack_images/sub-prob1.2-sol2-mockups.png" style="width: 100%; margin-bottom: 50px;">
+
+        <div class="iphone-container" style="width: 100%; margin-bottom: 50px;">
+            <video autoplay="autoplay" loop="loop">
+                <source src="images/slack_prototypes/sub-prob-1.2-sol2-finished.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <h3>Threading</h3>
+        <p><span>Problem: </span>Many of the individuals who claimed their biggest problem to be notification
+            management said that one reason for this is that there are too many one-on-one conversations. Funnily
+            enough, while conducting these interviews, Slack actually released its new threading feature. Yet as
+            of writing this, it has been one week and not a single person on the LA Hacks team has utilized a
+            thread. <span>One on one conversations are still occurring.</span>
+        </p>
+        <p><span>Solution #1: </span>If a select few people are having a <span>one-on-one extended</span> conversation,
+            Slackbot offers a suggestion to start a thread. A conversation can be determined to be <span>one-on-one</span>
+            and <span>extended</span> by an algorithm that takes into account a variety of factors such as the number of people
+            present in the conversation, how many individuals in the channel have it on mute, how many individuals have
+            utilized my previous feature of muting the channel from push notifications, the kind of words being used in
+            the conversation, and more.
+        </p>
+        <img src="images/slack_images/sub-prob1.3-sol1-wireframe.JPG" style="width: 100%; margin-top: 20px; margin-bottom: 50px;">
+        <img src="images/slack_images/sub-prob1.3-sol1-mockups.png" style="width: 100%; margin-bottom: 50px;">
+
+        <div class="iphone-container" style="width: 100%; margin-bottom: 50px;">
+            <video autoplay="autoplay" loop="loop">
+                <source src="images/slack_prototypes/sub-prob-1.3-finished.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </section>
+    <section>
+        <h2>Symptom #2: Layout Issues</h2>
+        <p style="padding-bottom: 0;">
+            For the most part, the layout of the mobile application is
+            incredibly well-designed. However throughout my interviews,
+            I noticed two concerns that prompted me to conduct usability tests.
+        </p>
+        <h3>Chat Info Layout</h3>
+        <p><span>Problem: </span>In my interviews, 3 people specifically brought up their frustration with finding
+            pinned posts. Interested in this, I asked the individuals in my usability tests to find pinned posts
+            in a specific channel. 50% of them scrolled up in the chat. Another 20% clicked
+            the three dot icon on the top right of the navigation bar. This indicates that most users assumed it
+            to be somewhere at the top of their screen but it’s not very clear how everything is organized.
+        </p>
+        <p><span>Solution: </span>Alter the top navigation bar. Get rid of the search button and place it
+            in a separate modal since it doesn't have to do with navigating the app and is a different form of
+            navigation when compared to the other 3.
+            Move the title of the channel to the middle to convey the idea that all
+            options for the channel can be found there. The slack logo on the top left is for moving
+            to the left to the channel/message directories and the 3 vertical dots is for navigating
+            to the right to see personal settings and options. Implement a modal that doesn’t navigate
+            the user away from the chat screen to make the process feel quicker. Only place the most
+            used features in there and place a button that will allow the user to get to more options
+            that are essentially used less.
+        </p>
+        <img src="images/slack_images/sub-prob2.2-sol1-wireframe.JPG" style="width: 100%; margin-top: 20px; margin-bottom: 50px;">
+        <img src="images/slack_images/before-after-nav.png" style="width: 100%; margin-bottom: 100px; margin-top: 50px;">
+        <img src="images/slack_images/sub-prob2.2-sol1-mockups.png" style="width: 100%; margin-bottom: 50px;">
+
+        <div class="iphone-container" style="width: 100%; margin-bottom: 50px;">
+            <video autoplay="autoplay" loop="loop">
+                <source src="images/slack_prototypes/sub-prob-2.2-finished.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <h3>Icon Inconsistency</h3>
+        <p><span>Problem: </span>When interviewing one individual, we discovered that on mobile
+            the "+" icon next to "Channels" in the channel directory is for showing all existing channels. However on desktop,
+            that same button is for creating a new channel, while physically clicking “channels” shows all
+            existing channels. The interviewee said that this was incredibly confusing.
+        </p>
+        <p>As a result, I conducted a usability test with 10 individuals who were familiar with slack but not very
+            familiar with the mobile app. Because a user is more likely to search for existing channels on his/her mobile app,
+            I asked each of them to do that.
+            Interestingly, every single one of them clicked “All Threads”. 80% of them also told me
+            that they thought the "+" icon was for “creating a new channel” since the "+" is usually
+            utilized to convey "new" or "add" in most apps.
+        </p>
+        <p><span>Solution: </span>Leave the desktop alone since it utilizes the icon correctly. On mobile,
+            get rid of the + and change to “View All”. Change “All Threads” to “Active Threads”, since the
+            use of “All” can be connected to the idea of “All Channels”.
+        </p>
+        <img src="images/slack_images/sub-prob2.1-sol1-wireframe.JPG" style="width: 100%; margin-top: 20px; margin-bottom: 50px;">
+        <div class="iphone-container" style="width: 100%; margin-bottom: 50px;">
+            <img src="images/slack_images/sub-prob2.1-sol1-mockups.png" class="still-video">
+        </div>
+    </section>
+</div>
+
+
+
+
+</body>
+</html>
