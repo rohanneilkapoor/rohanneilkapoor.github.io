@@ -453,6 +453,56 @@ i:hover{
     vertical-align: middle;
     float: none;
 }
+.iphone-container{
+    background: url("images/slack_images/iphone.png");
+    background-size: auto 100%;                     /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.iphone-container video{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 11.43%;
+    padding-bottom: 11.43%;
+
+}
+.iphone-container .still-video{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 11.43%;
+    padding-bottom: 11.43%;
+
+}
+@media(max-width:991px){
+    .iphone-container video{
+        width: 20%;
+        padding-top: 5.71%;
+        padding-bottom: 5.71%;
+
+    }
+    .iphone-container .still-video{
+        width: 20%;
+        padding-top: 5.71%;
+        padding-bottom: 5.71%;
+
+    }
+}
+@media(max-width:776px){
+    .iphone-container video{
+        width: 35%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+
+    }
+    .iphone-container .still-video{
+        width: 35%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+
+    }
+}
 
 
 

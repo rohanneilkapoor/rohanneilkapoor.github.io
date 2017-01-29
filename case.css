@@ -246,6 +246,12 @@ h5{
     background-repeat:   no-repeat;
     background-position: center center;
 }
+.bottom-video video{
+    height: 200px !important;
+    margin: 0 auto !important;
+    padding-top: 27px !important;
+    padding-bottom: 27px !important;
+}
 .iphone-container video{
     width: 35%;
     display: block;
@@ -424,6 +430,8 @@ i:hover{
     position: relative;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 .image-holder-right{
     border-right: 1px solid #ebeff1;
@@ -502,6 +510,12 @@ i:hover{
     .bottom-img{
         height: 80px;
         width: auto;
+    }
+    .bottom-video video{
+        height: 80px !important;
+        margin: 0 auto !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
     }
     .small-fix{
         margin-top: 40px;

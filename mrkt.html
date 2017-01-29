@@ -248,7 +248,7 @@
             upload a really large file? Because the application was being developed
             for scale, I had to take this into account. Having multiple posts in a feed with
             large image file sizes could significantly slow down the load/rendering times of
-            the pages. Therefore, I utilized <a class="mrkt-link" href="https://www.imagemagick.org/script/index.php">ImageMagick</a> to compress each image when uploaded
+            the pages. Therefore, I utilized <a class="mrkt-link" href="https://www.imagemagick.org/script/index.php" target="_blank">ImageMagick</a> to compress each image when uploaded
             so that no image would exceed a height of 750 pixels while maintaining its dimensional
             ratio. Having a maximum height for each image also allowed for a more visually
             appealing feed and an overall better user experience.
@@ -299,7 +299,7 @@
         <h3>Implementation</h3>
         <p style="padding-bottom: 0;">
             To implement this grid-based feed, I utilized
-            <a class="mrkt-link" href="http://masonry.desandro.com/">Masonry</a>. Masonry
+            <a class="mrkt-link" href="http://masonry.desandro.com/" target="_blank">Masonry</a>. Masonry
             is a JavaScript library that maintains a consistent grid width
             while keeping the vertical height as small as possible. When a post is added,
             Masonry positions the element to the grid in the most optimal
@@ -315,7 +315,7 @@
             of posts in a feed. The more posts there are, the longer it will
             take for the page to load. Therefore, I segmented the posts using
             pagination (I utilized the ruby gem
-            <a class="mrkt-link" href="https://rubygems.org/gems/will_paginate/versions/3.1.5">will_paginate</a>). This way, a
+            <a class="mrkt-link" href="https://rubygems.org/gems/will_paginate/versions/3.1.5" target="_blank">will_paginate</a>). This way, a
             feed is broken up into X number of pages with each page  holding
             a specific number of posts.
         </p>
@@ -323,7 +323,7 @@
             will still show plenty of posts on one page. From a user experience
             perspective, this is great for load times, yet I don’t think it’s ideal.
             If I were to go back and re-do the project, I would’ve made use of
-            <a class="mrkt-link" href="https://github.com/jassa/lazyload-rails">lazy
+            <a class="mrkt-link" href="https://github.com/jassa/lazyload-rails" target="_blank">lazy
             loading</a>. I feel this is ideal for user experience because the user doesn’t
             have to click for the next page. Instead the feed will load more posts once
             the user is at the bottom of the page.
