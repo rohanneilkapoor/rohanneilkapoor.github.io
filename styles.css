@@ -322,9 +322,10 @@ button:active{
     border-left: 30px solid #ffcde4;
 }
 .big-btn{
-
+    visibility: hidden;
 }
 .small-btn{
+    visibility: hidden;
     display: none;
 }
 .small-section{
@@ -353,9 +354,6 @@ button:active{
     }
 }
 @media(max-width: 991px){
-    .big-btn{
-        display:none;
-    }
     .small-btn{
         display: inline;
     }
