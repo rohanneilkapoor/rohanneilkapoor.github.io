@@ -301,7 +301,25 @@ button:active{
 
 }
 .big-section{
-
+    background-color: white;
+}
+.big-section-slack{
+    border-left: 30px solid #b8ffe2;
+}
+.big-section-lahacks{
+    border-right: 30px solid #ffd3ad;
+}
+.big-section-skm{
+    border-left: 30px solid #b8ffe2;
+}
+.big-section-mrkt{
+    border-right: 30px solid #ffd3ad;
+}
+.big-section-amex{
+    border-left: 30px solid #b8ffe2;
+}
+.big-section-sep{
+    border-right: 30px solid #ffd3ad;
 }
 .big-btn{
 
@@ -502,6 +520,13 @@ i:hover{
         padding-bottom: 10%;
 
     }
+}
+
+.slack-border{
+    height: 100vh;
+    width: 30px;
+    background-color: #ffd3ad;
+    position: absolute;
 }
 
 
