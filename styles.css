@@ -307,19 +307,19 @@ button:active{
     border-left: 30px solid #b8ffe2;
 }
 .big-section-lahacks{
-    border-right: 30px solid #ffd3ad;
+    border-left: 30px solid #ffd3ad;
 }
 .big-section-skm{
-    border-left: 30px solid #b8ffe2;
+    border-left: 30px solid #ffcde4;
 }
 .big-section-mrkt{
-    border-right: 30px solid #ffd3ad;
-}
-.big-section-amex{
     border-left: 30px solid #b8ffe2;
 }
+.big-section-amex{
+    border-left: 30px solid #ffd3ad;
+}
 .big-section-sep{
-    border-right: 30px solid #ffd3ad;
+    border-left: 30px solid #ffcde4;
 }
 .big-btn{
 
