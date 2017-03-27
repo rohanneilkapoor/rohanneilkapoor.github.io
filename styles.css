@@ -303,24 +303,7 @@ button:active{
 .big-section{
     background-color: white;
 }
-.big-section-slack{
-    border-left: 30px solid #b8ffe2;
-}
-.big-section-lahacks{
-    border-left: 30px solid #ffd3ad;
-}
-.big-section-skm{
-    border-left: 30px solid #ffcde4;
-}
-.big-section-mrkt{
-    border-left: 30px solid #b8ffe2;
-}
-.big-section-amex{
-    border-left: 30px solid #ffd3ad;
-}
-.big-section-sep{
-    border-left: 30px solid #ffcde4;
-}
+
 .big-btn{
     visibility: hidden;
 }
